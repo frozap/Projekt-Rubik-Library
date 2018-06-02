@@ -23,6 +23,7 @@
 			<Item Name="ReadMoveListFile.vi" Type="VI" URL="../ReadMoveListFile.vi"/>
 		</Item>
 		<Item Name="Type Defs" Type="Folder">
+			<Item Name="FaceSymbols.ctl" Type="VI" URL="../FaceSymbols.ctl"/>
 			<Item Name="SingmasterAllMoves.ctl" Type="VI" URL="../SingmasterAllMoves.ctl"/>
 			<Item Name="SingmasterMoves.ctl" Type="VI" URL="../SingmasterMoves.ctl"/>
 		</Item>
@@ -46,7 +47,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/RubikSourceLibrary.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8B600AE7-62D8-4D34-9C21-933D5F2A378E}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/RubikSourceLibrary.llb</Property>
@@ -56,7 +57,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{76E6AACA-8200-4E0A-AB54-4976CA76AF5E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{050D7721-4831-4565-B93C-500C5D4368B5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SubVIs/ReadMoveListFile.vi</Property>
