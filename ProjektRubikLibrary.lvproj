@@ -47,7 +47,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/RubikSourceLibrary.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8B600AE7-62D8-4D34-9C21-933D5F2A378E}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/RubikSourceLibrary.llb</Property>
