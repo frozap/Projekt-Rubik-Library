@@ -29,6 +29,7 @@
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
+			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="RubikSourceLibrary" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A889AF02-B8A4-4F67-ACB8-D5A7839ED88F}</Property>
@@ -47,7 +48,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/RubikSourceLibrary.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8B600AE7-62D8-4D34-9C21-933D5F2A378E}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/RubikSourceLibrary.llb</Property>
@@ -57,7 +58,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{050D7721-4831-4565-B93C-500C5D4368B5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8A76FB6C-6C4C-4801-91AB-23FBE3381D69}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SubVIs/ReadMoveListFile.vi</Property>
@@ -71,7 +72,11 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Type Defs/SingmasterMoves.ctl</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Type Defs/FaceSymbols.ctl</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 		</Item>
 	</Item>
